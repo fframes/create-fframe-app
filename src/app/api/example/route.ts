@@ -47,7 +47,7 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
       }));
     } else {
       // handle post_redirect click
-      const headers = new Headers({ 'Location': 'https://github.com/fframes/create-fframe-app' });
+      const headers = new Headers({ 'Location': 'https://github.com/rabbitholegg/create-fframe-app' });
       return new NextResponse(null, { status: 302, statusText: 'OK', headers });
     }
   } else if (frameId === FRAME_ID.success) {
