@@ -8,7 +8,7 @@ const { generateApplet } = require('./generate-applet');
 
 function createProject(projectName, firstAppletName) {
     const projectPath = path.resolve(projectName);
-    const gitRepoUrl = 'https://github.com/fframes/create-fframe-app.git';
+    const gitRepoUrl = 'https://github.com/rabbitholegg/create-fframe-app.git';
 
     // clone the repository
     console.log(`cloning the template into ${projectPath}`);

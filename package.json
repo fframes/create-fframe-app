@@ -1,15 +1,15 @@
 {
   "name": "create-fframe-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fframes/create-fframe-app.git"
+    "url": "git+https://github.com/rabbitholegg/create-fframe-app.git"
   },
   "license": "MIT",
   "author": {
-    "name": "veganbeef",
-    "email": "veganbeef@protonmail.com",
-    "url": "https://github.com/veganbeef"
+    "name": "boost.xyz",
+    "email": "info@boost.xyz",
+    "url": "https://github.com/rabbitholegg"
   },
   "keywords": ["farcaster", "frames", "nodejs", "node", "nextjs", "next", "typescript", "npx"],
   "scripts": {
