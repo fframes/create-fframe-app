@@ -1,0 +1,40 @@
+{
+  "name": "create-fframe-app",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fframes/create-fframe-app.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "veganbeef",
+    "email": "veganbeef@protonmail.com",
+    "url": "https://github.com/veganbeef"
+  },
+  "keywords": ["farcaster", "frames", "nodejs", "node", "nextjs", "next", "typescript", "npx"],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "generate-applet": "npx create-fframe-app -g"
+  },
+  "bin": {
+    "create-fframe-app": "bin/index.js"
+  },
+  "dependencies": {
+    "@coinbase/onchainkit": "^0.4.5",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "typescript": "^5"
+  }
+}
